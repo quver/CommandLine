@@ -1,3 +1,5 @@
+// swift-tools-version:4.2
+
 /*
 * Package.swift
 * Copyright (c) 2015 Ben Gollmer.
@@ -14,8 +16,6 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
-// swift-tools-version:4.2
 
 import PackageDescription
 
