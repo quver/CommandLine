@@ -20,7 +20,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CommandLine",
+    name: "CommandLineKit",
     products: [
         .library(
             name: "CommandLine",
