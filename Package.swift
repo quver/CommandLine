@@ -23,17 +23,17 @@ let package = Package(
     name: "CommandLineKit",
     products: [
         .library(
-            name: "CommandLine",
-            targets: ["CommandLine"]),
+            name: "CommandLineKit",
+            targets: ["CommandLineKit"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "CommandLine",
+            name: "CommandLineKit",
             path: "CommandLineKit"),
         .testTarget(
-            name: "CommandLineTests",
-            dependencies: ["CommandLine"],
+            name: "CommandLineKitTests",
+            dependencies: ["CommandLineKit"],
             path: "Tests"),
     ]
 )
